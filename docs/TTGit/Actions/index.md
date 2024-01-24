@@ -1,11 +1,11 @@
 # Using the built-in Actions
 This section will tell you on how to use the built-in TTGit actions feature, which is free to use, and comes with no cost.
 
-Actions is a continuous integration and continuous delivery (CI/CD) feature that allows you to automate your build, test and deployment pipelines in Forgejo, the software Codeberg uses. It is compatible with GitHub Actions.
+Actions is a continuous integration and continuous delivery (CI/CD) feature that allows you to automate your build, test and deployment pipelines in Forgejo, the software TTGit uses. It is compatible with GitHub Actions.
 
-Due to outstanding security issues and bus factor (we need more maintainers for our CI service to get it running), we are currently not yet providing hosted Actions. If you need Codeberg to host your CI, please use Woodpecker CI instead.
+Due to outstanding security issues and bus factor (we need more maintainers for our CI service to get it running), we are currently not yet providing hosted Actions. If you need TTGit to host your CI, please use Woodpecker CI instead.
 
-But you can already connect your own Runner to Codeberg. CI jobs will run on your machine, and the result will be displayed in Codeberg.
+But you can already connect your own Runner to TTGit. CI jobs will run on your machine, and the result will be displayed in TTGit.
 
 This guide will walk you through setting up your own Forgejo Actions Runner to use for CI jobs.
 

@@ -1,7 +1,6 @@
 site_name: TTNRT Docs
 repo_url: https://github.com/TTNRT/docs-new
 repo_name: TTNRT/docs-new
-edit_uri: https://example.com/project/repo/blob/main/docs/
 copyright: Copyright &copy; TTNRT 2020 - 2023
 edit_uri: edit/main/docs/
 theme:
@@ -17,7 +16,9 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
+      primary: white
+      accent: deep orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -25,6 +26,8 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      accent: deep purple
+      primary: black
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
